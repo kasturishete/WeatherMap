@@ -25,4 +25,5 @@ Cucumber Reports will be generated in Target Folder/cucumbet-html-report
 How to Run test:
 
 Go to CucumberRunner - Run as Junit
+Cucumber test will run and results will be generated in above mentioned folder
 
