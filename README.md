@@ -22,7 +22,7 @@ src/commonUtils/commonUtils.java - This class is designed for common methods.
 
 src/cucumberFeature/WeatherMap.feature - This file describes test in simple easy language
 
-src/cucumberRunner/WeatherMap.Runner - THis class is setup to run test.
+src/cucumberRunner/WeatherMap.Runner - This class is setup to run test.
 
 src/weatherMap_Modules/WeatherMap_Action.java - This class is designed to for common action methods
 
