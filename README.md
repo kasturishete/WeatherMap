@@ -1,5 +1,7 @@
 BDD Framework using Cucumber Selenium
 
+Problem statement - Check basic functioning of  https://openweathermap.org 
+
 Cucumber-Selenium is a behavior driven development (BDD) approach to write automation test script to test Web applications. 
 It enables you to write and execute automated acceptance/unit tests. It is cross-platform, open source and free and 
 automate your test cases with minimal coding.
