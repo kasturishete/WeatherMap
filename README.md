@@ -19,10 +19,15 @@ I have created Page object model to keep my code cleaner and easy to understand.
 Folder Structure:
 
 src/commonUtils/commonUtils.java - This class is designed for common methods.
+
 src/cucumberFeature/WeatherMap.feature - This file describes test in simple easy language
+
 src/cucumberRunner/WeatherMap.Runner - THis class is setup to run test.
+
 src/weatherMap_Modules/WeatherMap_Action.java - This class is designed to for common action methods
+
 src/weatherMap_StepDefinition/WeatherMap_StepDefinition.java - This class is designed to write step definitions
+
 src/weatherMap_Page/weatheMap_Page - This class is designed for web elements
 
 
