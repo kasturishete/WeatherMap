@@ -18,12 +18,13 @@ src/cucumberFeature/WeatherMap.feature - This file describes test in simple easy
 src/cucumberRunner/WeatherMap.Runner - THis class is setup to run test.
 src/weatherMap_Modules/WeatherMap_Action.java - This class is designed to for common action methods
 src/weatherMap_StepDefinition/WeatherMap_StepDefinition.java - This class is designed to write step definitions
-src/weatherMap_Page/weatheMap_Page - This class is designed for welements
+src/weatherMap_Page/weatheMap_Page - This class is designed for web elements
+
 
 Cucumber Reports will be generated in Target Folder/cucumbet-html-report
 
 How to Run test:
 
 Go to CucumberRunner - Run as Junit
-Cucumber test will run and results will be generated in above mentioned folder
+Cucumber test will run and results will be generated Target folder.
 
