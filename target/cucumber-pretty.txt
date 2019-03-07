@@ -1,0 +1,50 @@
+Feature: OpenWeatherMap
+	Description: To test functionality basic of https://openweathermap.org/
+
+  Scenario: To verify presence of important labels        [90m# src/cucumberFeature/WeatherMap.feature:4[0m
+    [32mGiven [0m[32mUser navigates to "[0m[32m[1mhttps://openweathermap.org/[0m[32m"[0m [90m# WeatherMap_StepDefinition.user_navigates_to(String)[0m
+    [32mThen [0m[32m"[0m[32m[1mWeather[0m[32m" weather label should be present[0m        [90m# WeatherMap_StepDefinition.weather_label_should_be_present(String)[0m
+    [32mThen [0m[32m"[0m[32m[1mMaps[0m[32m" map label should be present[0m               [90m# WeatherMap_StepDefinition.map_label_should_be_present(String)[0m
+    [32mThen [0m[32m"[0m[32m[1mPrice[0m[32m" price label should be present[0m            [90m# WeatherMap_StepDefinition.price_label_should_be_present(String)[0m
+    [32mThen [0m[32m"[0m[32m[1mStation[0m[32m" station label should be present[0m        [90m# WeatherMap_StepDefinition.station_label_should_be_present(String)[0m
+    [32mThen [0m[32mUser close the URL[0m                               [90m# WeatherMap_StepDefinition.user_close_the_URL()[0m
+
+  Scenario Outline: To verify when incorrect city is entered [90m# src/cucumberFeature/WeatherMap.feature:13[0m
+    [36mGiven User navigates to "https://openweathermap.org/"[0m
+    [36mWhen User enters invalid city "<City>" in search box[0m
+    [36mAnd click on Search button[0m
+    [36mThen Not found message should be displayed[0m
+    [36mThen User close the URL[0m
+
+    Examples: 
+
+  Scenario Outline: To verify when incorrect city is entered  [90m# src/cucumberFeature/WeatherMap.feature:23[0m
+    [32mGiven [0m[32mUser navigates to "[0m[32m[1mhttps://openweathermap.org/[0m[32m"[0m     [90m# WeatherMap_StepDefinition.user_navigates_to(String)[0m
+    [32mWhen [0m[32mUser enters invalid city "[0m[32m[1mInvalidCity[0m[32m" in search box[0m [90m# WeatherMap_StepDefinition.user_enters_invalid_city_in_search_box(String)[0m
+    [32mAnd [0m[32mclick on Search button[0m                                [90m# WeatherMap_StepDefinition.click_on_Search_button()[0m
+    [32mThen [0m[32mNot found message should be displayed[0m                [90m# WeatherMap_StepDefinition.not_found_message_should_be_displayed()[0m
+    [32mThen [0m[32mUser close the URL[0m                                   [90m# WeatherMap_StepDefinition.user_close_the_URL()[0m
+
+  Scenario Outline: To verify when correct city is entered [90m# src/cucumberFeature/WeatherMap.feature:25[0m
+    [36mGiven User navigates to "https://openweathermap.org/"[0m
+    [36mWhen User enters valid city name "<City>" in search box[0m
+    [36mAnd click on Search button[0m
+    [36mThen Weather details should be displayed[0m
+    [36mThen User close the URL[0m
+
+    Examples: 
+
+  Scenario Outline: To verify when correct city is entered     [90m# src/cucumberFeature/WeatherMap.feature:35[0m
+    [32mGiven [0m[32mUser navigates to "[0m[32m[1mhttps://openweathermap.org/[0m[32m"[0m      [90m# WeatherMap_StepDefinition.user_navigates_to(String)[0m
+    [32mWhen [0m[32mUser enters valid city name "[0m[32m[1mMumbai,IN[0m[32m" in search box[0m [90m# WeatherMap_StepDefinition.user_enters_valid_city_name_in_search_box(String)[0m
+    [32mAnd [0m[32mclick on Search button[0m                                 [90m# WeatherMap_StepDefinition.click_on_Search_button()[0m
+    [32mThen [0m[32mWeather details should be displayed[0m                   [90m# WeatherMap_StepDefinition.weather_details_should_be_displayed()[0m
+    [32mThen [0m[32mUser close the URL[0m                                    [90m# WeatherMap_StepDefinition.user_close_the_URL()[0m
+
+  Scenario: To verify user is not able to Sign In with invalid credentials [90m# src/cucumberFeature/WeatherMap.feature:37[0m
+    [32mGiven [0m[32mUser navigates to "[0m[32m[1mhttps://openweathermap.org/[0m[32m"[0m                  [90m# WeatherMap_StepDefinition.user_navigates_to(String)[0m
+    [32mAnd [0m[32mUser clicks on Sign In[0m                                             [90m# WeatherMap_StepDefinition.user_clicks_on_Sign_In()[0m
+    [32mWhen [0m[32mUser enters invalid username as "[0m[32m[1mKasturi@gmail.com[0m[32m"[0m               [90m# WeatherMap_StepDefinition.user_enters_invalid_username_as(String)[0m
+    [32mAnd [0m[32mUser enters invalid password as "[0m[32m[1mpassword[0m[32m"[0m                         [90m# WeatherMap_StepDefinition.user_enters_invalid_password_as(String)[0m
+    [32mThen [0m[32mUser should not be able to login[0m                                  [90m# WeatherMap_StepDefinition.user_should_not_be_able_to_login()[0m
+    [32mThen [0m[32mUser close the URL[0m                                                [90m# WeatherMap_StepDefinition.user_close_the_URL()[0m

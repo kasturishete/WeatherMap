@@ -1,0 +1,300 @@
+[
+  {
+    "source": "^User navigates to \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "User navigates to \"https://openweathermap.org/\"",
+        "aggregatedDurations": {
+          "average": 7.8607559,
+          "median": 8.318553403
+        },
+        "durations": [
+          {
+            "duration": 8.377591668,
+            "location": "src/cucumberFeature/WeatherMap.feature:6"
+          },
+          {
+            "duration": 5.416897942,
+            "location": "src/cucumberFeature/WeatherMap.feature:15"
+          },
+          {
+            "duration": 9.389018851,
+            "location": "src/cucumberFeature/WeatherMap.feature:27"
+          },
+          {
+            "duration": 8.259515139,
+            "location": "src/cucumberFeature/WeatherMap.feature:39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Not found message should be displayed$",
+    "steps": [
+      {
+        "name": "Not found message should be displayed",
+        "aggregatedDurations": {
+          "average": 0.047100455,
+          "median": 0.047100455
+        },
+        "durations": [
+          {
+            "duration": 0.047100455,
+            "location": "src/cucumberFeature/WeatherMap.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User enters invalid username as \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "User enters invalid username as \"Kasturi@gmail.com\"",
+        "aggregatedDurations": {
+          "average": 0.253932399,
+          "median": 0.253932399
+        },
+        "durations": [
+          {
+            "duration": 0.253932399,
+            "location": "src/cucumberFeature/WeatherMap.feature:41"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^\"([^\"]*)\" station label should be present$",
+    "steps": [
+      {
+        "name": "\"Station\" station label should be present",
+        "aggregatedDurations": {
+          "average": 0.03537566,
+          "median": 0.03537566
+        },
+        "durations": [
+          {
+            "duration": 0.03537566,
+            "location": "src/cucumberFeature/WeatherMap.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User should not be able to login$",
+    "steps": [
+      {
+        "name": "User should not be able to login",
+        "aggregatedDurations": {
+          "average": 0.448986894,
+          "median": 0.448986894
+        },
+        "durations": [
+          {
+            "duration": 0.448986894,
+            "location": "src/cucumberFeature/WeatherMap.feature:43"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User clicks on Sign In$",
+    "steps": [
+      {
+        "name": "User clicks on Sign In",
+        "aggregatedDurations": {
+          "average": 2.823803103,
+          "median": 2.823803103
+        },
+        "durations": [
+          {
+            "duration": 2.823803103,
+            "location": "src/cucumberFeature/WeatherMap.feature:40"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^\"([^\"]*)\" map label should be present$",
+    "steps": [
+      {
+        "name": "\"Maps\" map label should be present",
+        "aggregatedDurations": {
+          "average": 0.029410953,
+          "median": 0.029410953
+        },
+        "durations": [
+          {
+            "duration": 0.029410953,
+            "location": "src/cucumberFeature/WeatherMap.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User enters invalid city \"([^\"]*)\" in search box$",
+    "steps": [
+      {
+        "name": "User enters invalid city \"InvalidCity\" in search box",
+        "aggregatedDurations": {
+          "average": 0.252995707,
+          "median": 0.252995707
+        },
+        "durations": [
+          {
+            "duration": 0.252995707,
+            "location": "src/cucumberFeature/WeatherMap.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^\"([^\"]*)\" weather label should be present$",
+    "steps": [
+      {
+        "name": "\"Weather\" weather label should be present",
+        "aggregatedDurations": {
+          "average": 0.03397546,
+          "median": 0.03397546
+        },
+        "durations": [
+          {
+            "duration": 0.03397546,
+            "location": "src/cucumberFeature/WeatherMap.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^click on Search button$",
+    "steps": [
+      {
+        "name": "click on Search button",
+        "aggregatedDurations": {
+          "average": 3.369231159,
+          "median": 3.369231159
+        },
+        "durations": [
+          {
+            "duration": 3.411633212,
+            "location": "src/cucumberFeature/WeatherMap.feature:17"
+          },
+          {
+            "duration": 3.326829107,
+            "location": "src/cucumberFeature/WeatherMap.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^\"([^\"]*)\" price label should be present$",
+    "steps": [
+      {
+        "name": "\"Price\" price label should be present",
+        "aggregatedDurations": {
+          "average": 0.034027588,
+          "median": 0.034027588
+        },
+        "durations": [
+          {
+            "duration": 0.034027588,
+            "location": "src/cucumberFeature/WeatherMap.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User close the URL$",
+    "steps": [
+      {
+        "name": "User close the URL",
+        "aggregatedDurations": {
+          "average": 1.15997166,
+          "median": 1.170208457
+        },
+        "durations": [
+          {
+            "duration": 1.143308095,
+            "location": "src/cucumberFeature/WeatherMap.feature:11"
+          },
+          {
+            "duration": 1.19710882,
+            "location": "src/cucumberFeature/WeatherMap.feature:19"
+          },
+          {
+            "duration": 1.205470296,
+            "location": "src/cucumberFeature/WeatherMap.feature:31"
+          },
+          {
+            "duration": 1.093999431,
+            "location": "src/cucumberFeature/WeatherMap.feature:44"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Weather details should be displayed$",
+    "steps": [
+      {
+        "name": "Weather details should be displayed",
+        "aggregatedDurations": {
+          "average": 0.067953011,
+          "median": 0.067953011
+        },
+        "durations": [
+          {
+            "duration": 0.067953011,
+            "location": "src/cucumberFeature/WeatherMap.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User enters valid city name \"([^\"]*)\" in search box$",
+    "steps": [
+      {
+        "name": "User enters valid city name \"Mumbai,IN\" in search box",
+        "aggregatedDurations": {
+          "average": 0.236161674,
+          "median": 0.236161674
+        },
+        "durations": [
+          {
+            "duration": 0.236161674,
+            "location": "src/cucumberFeature/WeatherMap.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User enters invalid password as \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "User enters invalid password as \"password\"",
+        "aggregatedDurations": {
+          "average": 0.113619108,
+          "median": 0.113619108
+        },
+        "durations": [
+          {
+            "duration": 0.113619108,
+            "location": "src/cucumberFeature/WeatherMap.feature:42"
+          }
+        ]
+      }
+    ]
+  }
+]

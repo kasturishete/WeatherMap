@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="47.4222">
+<testcase classname="OpenWeatherMap" name="To verify presence of important labels" time="9.679286">
+<system-out><![CDATA[Given User navigates to "https://openweathermap.org/".......................passed
+Then "Weather" weather label should be present..............................passed
+Then "Maps" map label should be present.....................................passed
+Then "Price" price label should be present..................................passed
+Then "Station" station label should be present..............................passed
+Then User close the URL.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="OpenWeatherMap" name="To verify when incorrect city is entered" time="10.508145">
+<system-out><![CDATA[Given User navigates to "https://openweathermap.org/".......................passed
+When User enters invalid city "InvalidCity" in search box...................passed
+And click on Search button..................................................passed
+Then Not found message should be displayed..................................passed
+Then User close the URL.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="OpenWeatherMap" name="To verify when correct city is entered" time="14.235172">
+<system-out><![CDATA[Given User navigates to "https://openweathermap.org/".......................passed
+When User enters valid city name "Mumbai,IN" in search box..................passed
+And click on Search button..................................................passed
+Then Weather details should be displayed....................................passed
+Then User close the URL.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="OpenWeatherMap" name="To verify user is not able to Sign In with invalid credentials" time="12.999597">
+<system-out><![CDATA[Given User navigates to "https://openweathermap.org/".......................passed
+And User clicks on Sign In..................................................passed
+When User enters invalid username as "Kasturi@gmail.com"....................passed
+And User enters invalid password as "password"..............................passed
+Then User should not be able to login.......................................passed
+Then User close the URL.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
